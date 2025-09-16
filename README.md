@@ -38,9 +38,9 @@
 
 ## Tech Stack
 
+* **Dev tooling:** ESLint, Prettier.
 * **Backend:** Node.js, TypeScript, Fastify, Prisma, PostgreSQL.
 * **Frontend:** React, TypeScript, Vite, React Router, Zustand.
-* **Dev tooling:** ESLint, Prettier.
 
 ---
 
@@ -141,8 +141,8 @@ In the frontend `package.json`:
 ## Tests, lint, and formatting
 
 * **Unit tests:** Vitest.
-* **Lint:** ESLint with rules based on TypeScript-ESLint.
 * **Formatter:** Prettier with shared configuration.
+* **Lint:** ESLint with rules based on TypeScript-ESLint.
 
 ---
 
@@ -191,7 +191,8 @@ jobs:
 
 ## License
 
-MIT © Victor Vasconcelos
+MIT © Victor Vasconcelos.
+</br>
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
