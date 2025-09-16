@@ -1,10 +1,12 @@
-import { BrowserRouter as Router, Routes } from "react-router-dom"
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
+
+import Home from "../pages/Home";
 
 const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-
+        <Route path="/" element={ <Home /> } />
       </Routes>
     </Router>
   )
