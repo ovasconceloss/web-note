@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
         <Link to={'/'} className="text-2xl font-bold cursor-pointer transition-all ease-in-out hover:text-zinc-500">WebNote</Link>
       </section>
       <section className="space-x-5">
-        <Link to={'/'}>
+        <Link to={'/signin'}>
           <button 
             className="
               w-[6.0rem] p-1 rounded-sm bg-transparent border-2 border-zinc-900 text-zinc-900 cursor-pointer
