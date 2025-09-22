@@ -4,8 +4,15 @@
   "description": "a minimalist note-taking app.",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["node", "javascript", "typescript"],
+  "keywords": [
+    "node",
+    "javascript",
+    "typescript"
+  ],
   "author": "Victor Vasconcelos <victorlimpiovasconcelos.dev@gmail.com>",
   "license": "MIT",
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.17.0",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
 }
